@@ -1,0 +1,185 @@
+%------------------------
+% Resume Template
+% Author : Anubhav Singh
+% Github : https://github.com/xprilion
+% License : MIT
+%------------------------
+
+\documentclass[letter,20pt]{article}
+% PREAMBLE {{{
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+% }}}
+
+\begin{document}
+% HEADER {{{
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Carlos Vigil Vásquez}} \\
+  \\
+  Mail: \href{mailto:cvigil2@uc.cl}{cvigil2@uc.cl} & Telephone +569-95644768 & \href{https://github.com/cvigilv}{Github: github.com/cvigilv}
+\end{tabular*}
+% }}}
+% EXPERIENCE {{{
+\section{~~Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading{Molecular Design Lab, Pontificia Universidad Católica de Chile}{Hybrid}{Research Assistant}{July 2017 - today}
+	\small{
+	\begin{itemize}
+	\item Development of a series of network-based target prediction methods that exceeded state-of-the-art performance employing novel ideas obtained from social and physics-derived studies.
+	\item Implementation a series of pipelines for common cheminformatics tasks that helped accelerate prototyping and development of novel methodology in the laboratory.
+	\end{itemize}}
+    \resumeSubheading{Psychophysiology Lab, Pontificia Universidad Católica de Chile}{Remote}{Research Assistant}{January 2022 - today}
+	\begin{itemize}
+	\item Implementation of tools and workflows for processing and analysing experimental data obtained from different experiments.
+	\item Development of machine-learning models capable of classifying human subjects based on their cognitive state related to contemplative practices and well-being.
+	\end{itemize}
+	% \resumeSubheading{REFRACT}{Presencial}{Secondee}{July 2018 - December 2018}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+% }}}
+% EDUCATION {{{
+\section{~~Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+		{Biochemistry}{Santiago, Chile}
+		{Pontificia Universidad Católica de Chile}{2015 - 2022}
+	\begin{itemize}
+	\item Licenciate grade 5.6/7.0 (3.1/4.0 in GPA scale)
+	\item Undergraduate research thesis 7.0/7.0 (4.0/4.0 in GPA scale)
+	\item Graduated with 2 of 3 votes of distinction
+	\end{itemize}}
+    \resumeSubHeadingListEnd
+\vspace{-5pt}
+% }}}
+% PUBLICATIONS {{{
+\section{~~Publications}
+\resumeSubHeadingListStart
+\vspace{2pt}
+\resumeItemWithoutTitle{}{\textbf{Vigil, C.}; Schüller, A. \textit{De novo} prediction of drug targets and candidates by chemical similarity-guided network-based inference. IJMS (2022). DOI:10.3390/ijms23179666
+\resumeSubHeadingListEnd
+% }}}
+% PRESENTATIONS {{{
+\section{~~Presentations}
+\resumeSubHeadingListStart
+\resumeSubItem{Antifungal drug discovery by chemical similarity-guided network-based inference}{Sociedad Chilena de Bioinformática (January, 2022)}
+\vspace{2pt}
+\resumeSubItem{DDTNBI: de novo target prediction using a social network-derived method}{ISMB/ECCB (August, 2021)}
+\vspace{2pt}
+\resumeSubItem{A computational chemogenomics method for the prediction of off-target interactions with coagulation factor Xa}{EHA (August, 2020)}
+\vspace{2pt}
+\resumeSubItem{Limits and potential of in silico target prediction by chemical similarity}{ISCB-LA (October, 2018)}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+% }}}
+% AWARDS {{{
+\section{~~Awards}
+\resumeSubHeadingListStart
+\resumeSubItem{Undergraduate Research Contest - Winter 2017}{Project title: ''\textit{In silico} prediction and prioritization of novel drug targets.''}
+\resumeSubItem{Undergraduate Research Contest - Summer 2020}{Project title: ''Use of biochemical networks for the prediction of novel drugs for coagulation factor Xa''}
+\vspace{2pt}
+\resumeSubHeadingListEnd
+% }}}
+% RESEARCH PROJECTS {{{
+\section{~~Research projects}
+\vspace{2pt}
+\resumeSubHeadingListStart
+\resumeItemWithoutTitle{}{Weak-links paradox for \textit{de novo} target prediction}
+\vspace{-2pt}
+\resumeItemWithoutTitle{}{Use of biochemical networks for the prediction of novel drugs for coagulation factor Xa}
+\vspace{-2pt}
+\resumeItemWithoutTitle{}{Integrating chemical, structural and relacional information for protein-ligand interaction prediction using molecular netwoks}
+\vspace{-2pt}
+\resumeItemWithoutTitle{}{SLiP: SchuellerLab Ligand Priorization}
+\vspace{-2pt}
+\resumeItemWithoutTitle{}{\textit{In silico} prediction and prioritization of novel drug targets}
+\vspace{-2pt}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+% }}}
+% SKILL {{{
+\section{~~Skills}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Human languages}{Spanish (native), English (TOEFL score 101 of 120)}
+	\resumeSubItem{Machine languages}{Python, Julia, LaTeX, Bash, SQL}
+	\resumeSubItem{Frameworks}{Graphs.jl, CUDA.jl, Plots.jl, Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn, NetworkX, Pingouin}
+	\resumeSubItem{Tools}{Git, GitHub, MySQL, SQLite}
+	\resumeSubItem{Platforms}{Linux, MacOS}
+	\resumeSubItem{Practical experience}{Recommender systems, graph theory, statistics, data visualization, REST API}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+% }}}
+% MISCELLANEOUS {{{
+\section{~~Miscellaneous}
+\resumeSubHeadingListStart
+\resumeSubItem{Co-delegate of the Association of Biochemistry Students (ANEB)}{Period: 2018}
+\vspace{2pt}
+\resumeSubItem{Member of the Association of Biochemistry Students (ANEB)}{Period: 2016 - 2021}
+\vspace{2pt}
+\resumeSubItem{Member of the International Society for Computational Biology (ISCB)}{Period: 2018 \& 2021}
+\vspace{2pt}
+\resumeSubHeadingListEnd
+% }}}
+\end{document}
