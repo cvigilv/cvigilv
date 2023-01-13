@@ -1,5 +1,7 @@
-# Hi, I'm Carlos and I...
+# Hi, I'm Carlos
 
-biochemist from Chile playing with computers, [JuliaLang](https://github.com/JuliaLang/julia) enthusiast, Linux nerd, documenter of life!
+## What have I done?
+Please refer to my [CV](./cv/CV_english_20230108.pdf) for more information.
 
 Last edit: 2022-01-27
+Last edit: 2023-01-08
