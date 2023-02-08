@@ -1,0 +1,197 @@
+\documentclass[letter,20pt]{article}
+% PREAMBLE {{{
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+% }}}
+
+\begin{document}
+% HEADER {{{
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r}
+	\textbf{{\LARGE Carlos Vigil Vásquez}} \\
+	\\
+	e-mail: \href{mailto:cvigil2@uc.cl}{carlos.vigil.v@gmail.com} &
+	&
+	\href{https://github.com/cvigilv}{Github: github.com/cvigilv}
+	\\
+\end{tabular*}
+% }}}
+% EXPERIENCE {{{
+\section{~~Experiencia}
+\resumeSubHeadingListStart
+\resumeSubheading{Asistente de Investigación - Laboratorio de Diseño Molecular}{Híbrido}{Pontificia Universidad Católica de Chile; Santiago, Chile}{Julio 2017 - Diciembre 2022}
+\small{
+	\begin{itemize}
+		\item Propuse e implementé un algoritmo predictivo nuevo llamado SimSpread el cual combina la inferencia basada en redes, algoritmo predictivo utilizado en estudios sociales, con medidas de similitud química lo cual resultó en un modelo predictivo que superó el rendimiento de otros métodos basados en formalismo de redes en labores de descubrimiento y reposicionamiento farmacológico.
+		\item Implementé un esquema de trabajo para el descubrimiento de fármacos basado en el modelo predictivo SimSpread que dio lugar a 4 nuevos compuestos con actividad antifúngica para 8 organismos fúngicos clínicamente relevantes.
+\end{itemize}}
+\vspace{-5pt}
+\resumeSubheading{Asistente de Investigación - Laboratorio de Psicofisiologia}{Remoto}{Pontificia Universidad Católica de Chile; Santiago, Chile}{Enero 2022 - Diciembre 2022}
+\begin{itemize}
+	\item Implementé un protocolo basado en inteligencia artificial y modelamiento estadístico para estudiar estados psicológicos humanos que resultaron en la identificación del efecto de diferentes prácticas contemplativas en el bienestar de los sujetos estudiados por medio de 7 métricas de bienestar distintas.
+\end{itemize}
+\vspace{-5pt}
+\resumeSubheading{Asistente de Investigación - REFRACT}{Híbrido}{Universidad Pablo de Olavide; Sevilla, Spain}{Septiembre 2022 - Diciembre 2022}
+\begin{itemize}
+	\item Propuse e implementé un protocolo bioinformático para busqueda de homología entre proteinas usando un modelo que combina metodos de alineamiento estructural y de secuencia para filtrar y enriquecer señales de conservación, el cual ayudo en el estudio de proteinas relacionadas a la organización de membrama plasmática y poro nuclear.
+\end{itemize}
+\resumeSubHeadingListEnd
+\vspace{-12pt}
+% }}}
+% EDUCATION {{{
+\section{~~Educación}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Titulo profesional - Bioquimica}{Santiago, Chile}
+{Pontificia Universidad Católica de Chile}{2015 - 2022}
+\vspace{3pt}
+\small{
+	\begin{multicols}{3}
+		\begin{itemize}
+			\item Nota de licenciatura 5.6/7.0
+			\item Nota de tesis 7.0/7.0
+			\item 2 de 3 votos de distinción
+		\end{itemize}
+	\end{multicols}
+	}
+\resumeSubHeadingListEnd
+\vspace{-15pt}
+% }}}
+% PUBLICATIONS {{{
+\section{~~Publicaciones}
+\resumeSubHeadingListStart
+\vspace{2pt}
+\resumeItemWithoutTitle{}{\textbf{C. Vigil-Vásquez}, A. Schüller; \textit{De novo} prediction of drug targets and candidates by chemical similarity-guided network-based inference. IJMS (2022). DOI:10.3390/ijms23179666}
+\resumeItemWithoutTitle{}{\textbf{C. Vigil-Vásquez}, M. Jimenez-Socha, P. Ortiz-Bermudez, A. Schüller; Antifungal drug discovery by chemical similarity-guided network-based inference. \textit{En preparación}}.
+\resumeItemWithoutTitle{}{M. Villena-Gonzalez, P. Oyarzo, \textbf{C. Vigil-Vásquez}, F. Jaume, D. Cosmelli; Movement-based Contemplative Practices are associated with a positive impact on wellbeing due to the intentional cultivation of a specific profile of cognitive, emotional, and bodily self-awareness traits. \textit{En preparación}}.
+\resumeItemWithoutTitle{}{\textbf{C. Vigil-Vásquez}, C. Bellera, J. Gutierrez, D. Devos; Foldseek-fishing: Detecting remote structural similarity through ensemble bioinformatic tools. \textit{En preparación}}.
+\resumeSubHeadingListEnd
+% }}}
+% PRESENTATIONS {{{
+\section{~~Presentaciones}
+\resumeSubHeadingListStart
+\resumeSubItem{Antifungal drug discovery by chemical similarity-guided network-based inference}{Chilean Bioinformatics Society (January, 2022)}
+\vspace{2pt}
+\resumeSubItem{DDTNBI: de novo target prediction using a social network-derived method}{International Society for Computational Biology/European Conference on Computational Biology (August, 2021)}
+\vspace{2pt}
+\resumeSubItem{A computational chemogenomics method for the prediction of off-target interactions with coagulation factor Xa}{European Hematology Association (August, 2020)}
+\vspace{2pt}
+\resumeSubItem{Limits and potential of in silico target prediction by chemical similarity}{International Society for Computational Biology-LA (October, 2018)}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+% }}}
+% SKILL {{{
+\section{~~Habilidades}
+\resumeSubHeadingListStart
+\vspace{-14pt}
+\begin{multicols}{2}
+	\resumeSubItem{Lenguages Humanos}{Español (nativo), Ingles (TOEFL; 101 de 120 puntos)}
+	\resumeSubItem{Lenguages de Maquina}{Julia, Python, LaTeX, Bash, SQL}
+	\resumeSubItem{Frameworks}{Graphs.jl, CUDA.jl, Plots.jl, Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn, NetworkX, Pingouin}
+	\resumeSubItem{Herramientas}{Git, GitHub, MySQL, SQLite}
+	\resumeSubItem{Plataformas}{Linux, MacOS}
+	\resumeSubItem{Experiencia practica}{Quimioinformatica, Desarrollo farmacologico, Machine Learning, Sistemas de recomendación, Teoria de grafos/redes, Analisis estadistico, Visualización de datos, REST API}
+\end{multicols}
+\resumeSubHeadingListEnd
+\vspace{-15pt}
+% }}}
+% AWARDS {{{
+\section{~~Premios}
+\resumeSubHeadingListStart
+\resumeSubItem{Concurso de investigación de Pregrado - Invierno 2017}{''\textit{In silico} prediction and prioritization of novel drug targets.''}
+	\resumeSubItem{Concurso de investigación de Pregrado - Verano 2020}{''Use of biochemical networks for the prediction of novel drugs for coagulation factor Xa.''}
+\vspace{2pt}
+\resumeSubHeadingListEnd
+% }}}
+% % RESEARCH PROJECTS {{{
+% \section{~~Research projects}
+% \vspace{2pt}
+% \resumeSubHeadingListStart
+% \resumeItemWithoutTitle{}{Weak-links paradox for \textit{de novo} target prediction}
+% \vspace{-2pt}
+% \resumeItemWithoutTitle{}{Use of biochemical networks for the prediction of novel drugs for coagulation factor Xa}
+% \vspace{-2pt}
+% \resumeItemWithoutTitle{}{Integrating chemical, structural and relaciónal information for protein-ligand interaction prediction using molecular netwoks}
+% \vspace{-2pt}
+% \resumeItemWithoutTitle{}{SLiP: SchuellerLab Ligand Priorization}
+% \vspace{-2pt}
+% \resumeItemWithoutTitle{}{\textit{In silico} prediction and prioritization of novel drug targets}
+% \vspace{-2pt}
+% \resumeSubHeadingListEnd
+% \vspace{-5pt}
+% % }}}
+% % MISCELLANEOUS {{{
+% \section{~~Miscellaneous}
+% \resumeSubHeadingListStart
+% \resumeSubItem{Co-delegate of the Association of Biochemistry Students (ANEB)}{Period: 2018}
+% \vspace{2pt}
+% \resumeSubItem{Member of the Association of Biochemistry Students (ANEB)}{Period: 2016 - 2021}
+% \vspace{2pt}
+% \resumeSubItem{Member of the International Society for Computational Biology (ISCB)}{Period: 2018 \& 2021}
+% \vspace{2pt}
+% \resumeSubHeadingListEnd
+% % }}}
+\end{document}
