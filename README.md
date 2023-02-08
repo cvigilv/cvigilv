@@ -19,7 +19,6 @@ disponible en [español](./cv/CV_english_20230108.pdf)).
 - [mateo.nvim](https://github.com/cvigilv/mateo.nvim), my personal Neovim configuration.
 
 ### JuliaLang
-NetworkBasedInference.jl
 - [SimSpread.jl](https://github.com/cvigilv/SimSpread.jl)
 
 ### Personal
