@@ -11,7 +11,7 @@ disponible en [español](./cv/CV_english_20230108.pdf)).
 ## Projects
 ### Science
 - [De novo prediction of drug targets and candidates by chemical similarity-guided network-based inference](https://github.com/cvigilv/simspread)
-- [foldseek-fishing](https://github.com/cvigilv/foldseek-fishing)
+- [ResidueFisher](https://github.com/cvigilv/ResidueFisher), bioinformatics protocol that aims at mining information at the sequence and structure level of protein chain to detect possible evolutionary conserved residues
 
 ### Neovim
 - [diferente.nvim](https://github.com/cvigilv/diferente.nvim), a plugin to enhance the UX of Git commits in Neovim.
@@ -24,4 +24,4 @@ disponible en [español](./cv/CV_english_20230108.pdf)).
 ### Personal
 - [recetario](https://github.com/cvigilv/recetario), a compendium of miscellaneous script for all things science, ML, DS, Julia, etc.
 
-Last edit: 2023-02-08
+Last edit: 2023-03-24
