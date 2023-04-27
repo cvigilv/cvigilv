@@ -1,0 +1,218 @@
+\documentclass[letter,20pt]{article}
+% PREAMBLE {{{
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{ragged2e}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\usepackage[margin=1.0in]{geometry}
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+% }}}
+
+\begin{document}
+% HEADER {{{
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r}
+	& \textbf{{\LARGE Carlos Vigil Vásquez}} \\
+	\\
+	Mail: \href{mailto:carlos.vigil.v@gmail.com}{\textcolor{blue}{carlos.vigil.v@gmail.com}} &
+	Teléfono: +569 95644768 &
+	Github: \href{https://github.com/cvigilv}{\textcolor{blue}{github.com/cvigilv}}
+	\\
+\end{tabular*}
+\vspace{3pt}
+% }}}
+% INTRODUCCION {{{
+\section{~~Presentación}
+	\justify{
+		\small{
+		Bioquímico graduado de la Pontificia Universidad Católica de Chile con enfoque principalmente
+		en el desarrollo de soluciones computacionales usando modelamiento predictivo y aprendizaje de
+		máquina para la toma de decisiones informada. Cuento con experiencia práctica en las áreas de
+		bioinformática y quimioinformática, descubrimiento y desarrollo de fármacos, biología
+		estructural y psicología. Además cuento con habilidades y experiencia en desarrollo de
+		software, habiendo participado en proyectos de código abierto.
+		}
+	}
+\vspace{5pt}
+% }}}
+% EDUCACION {{{
+\section{~~Antecedentes Academicos}
+\resumeSubHeadingListStart
+% \resumeSubheading{Enseñanza básica y media}{Santiago, Chile}{Colegio Everest}{2002 - 2014}
+
+\resumeSubheading{Título profesional en Bioquímica}{Santiago, Chile}
+{Pontificia Universidad Católica de Chile}{2015 - 2022}
+\small{
+	\begin{multicols}{2}
+		\begin{itemize}
+			\item Nota de Examen de Grado: 6.3/7.0
+			\item Nota de Memoria de investigación: 7.0/7.0
+				\item Nota de Título: 6.0/7.0; 2 de 3 votos de distinción
+			\item Memoria de investigación titulada "Paradoja de uniones débiles para la predicción \textit{de novo} de blancos farmacológicos"
+		\end{itemize}
+	\end{multicols}
+	}
+\resumeSubHeadingListEnd
+\vspace{-15pt}
+\vspace{5pt}
+% }}}
+% EXPERIENCE {{{
+\section{~~Antecedentes Laborales}
+\resumeSubHeadingListStart
+\resumeSubheading{Asistente de Investigación - Laboratorio de Diseño Molecular}{Dr. Andreas Schüller, Ph. D.}{Pontificia Universidad Católica de Chile; Santiago, Chile}{Julio 2017 - a la fecha}
+\vspace{2pt}
+\small{
+	\begin{itemize}
+		\item Propuesta e implementacion de ''SimSpread'', modelo predictivo novedoso que combina teoría de grafos y el concepto de similitud química para emplearse en labores de descubrimiento y reposicionamiento de fármacos.
+		\item Estudio relacionado en el descubrimiento de fármacos con actividad antifúngica usando el modelo predictivo SimSpread, donde se descubrieron 4 compuestos nuevos con actividad antifúngica sobre 8 organismos fúngicos.
+		\item Autor del paquete de software \texttt{SimSpread.jl}, paquete de software para el lenguaje de programacion \texttt{Julia} que implementa el formalismo de SimSpread para su uso en labores de predicción de uniones en un grafo.
+		\item Asesoramiento en la iniciación y desarrollo de 3 proyectos relacionados al modelo SimSpread, relacionados al aumento del poder predictivo, ampliar el dominio de aplicación y la accesibilidad del método.
+	\end{itemize}
+}
+
+\resumeSubheading{Pasantía de investigación - REFRACT MSCA RISE PROJECT 2019}{Dr. Damien Devos, Ph. D.}{Universidad Pablo de Olavide; Sevilla, España}{Septiembre 2022 - Diciembre 2022}
+\vspace{2pt}
+\begin{itemize}
+	\item Propuesta e implementacion de ''ResidueFisher'', protocolo bioinformático de código abierto para ayudar en la búsqueda de homología remota entre proteínas ocupando información de secuencia y estructural.
+	% \item Estudio de proteínas con repeticiones en tandem relacionadas a la organización de membrama plasmática y poro nuclear usando ''ResidueFisher'' y estructuras protéicas obtenidas de Alphafold.
+\end{itemize}
+
+\resumeSubheading{Asistente de Investigación - Laboratorio de Psicofisiología}{Dr. Diego Cosmelli Sánchez, Ph. D.}{Pontificia Universidad Católica de Chile; Santiago, Chile}{Enero 2022 - Diciembre 2022}
+\begin{itemize}
+	% \item Preparación y depuración de bases de datos de medidas psicométricas y experimentos atencionales, análisis estadístico y demográfico de grupo de estudio humano.
+	\item Implementación de protocolo de análisis basado en aprendizaje de máquina, modelamiento estadístico y extracción de características de los modelos entrenados para estudio en humanos que resultaron en la identificación del efecto de diferentes prácticas contemplativas (por ejemplo, meditación) en el bienestar de los sujetos estudiados.
+\end{itemize}
+
+\resumeSubheading{Tesista - Laboratorio de Diseño Molecular}{Dr. Andreas Schüller, Ph. D.}{Pontificia Universidad Católica de Chile; Santiago, Chile}{Agosto 2020 - Junio 2022}
+\begin{itemize}
+		\item Memoria de investigación titulada "Paradoja de uniones débiles para la predicción \textit{de novo} de blancos farmacológicos".
+		\item Propuesta e implementación del modelo ''SimSpread'', su optimizacion utilizando diferentes esquemas de validación cruzada y evaluación de rendimiento predictivo de los modelos propuestos.
+		\item Extensión del metodo propuesto para incorporar nociones de la teoría de uniones debiles, resultando en un modelo capaz de generar predicciones de mayor novedad manteniendo el rendimiento predictivo visto.
+\end{itemize}
+
+\resumeSubheading{Ayudante corrector - Bioestadística}{Dr. Andreas Schüller, Ph. D.}{Pontificia Universidad Católica de Chile; Santiago, Chile}{Julio 2017 - Diciembre 2017}
+\resumeSubHeadingListEnd
+\vspace{5pt}
+% }}}
+% HABILIDADES {{{
+\section{~~Habilidades}
+\resumeSubHeadingListStart
+\resumeSubItem{Lenguages de Máquina}{Julia, Python, LaTeX, Bash, Lua}
+\resumeSubItem{Modelamiento predictivo}{Aprendizaje de máquina (modelos supervisados y no-supervisados), procesamiento de datos, manejo de bases de datos, REST API, agrupación de datos y su evaluación, evaluación de modelos predictivos, sistemas de recomendación, visualización de datos, bioestadística, estadística y probabilidad, teoría de grafos, análisis de redes, Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn, NetworkX, Pingouin}
+\resumeSubItem{Bioinformática}{Alineamiento de secuencias, MSA, alineamiento estructural, docking molecular, análisis estructural de proteínas, scripting en PyMOL, evaluación y modelamiento con AlphaFold, análisis ómicos, bioestadística, construcción de árboles filogenéticos}
+\resumeSubItem{Quimioinformática}{Preparación de descriptores moleculares, análisis de similitud química, preparación de confórmeros, confección de modelos farmacofóricos, RDKit, OpenBabel, representación computacional de compuestos químicos}
+\resumeSubItem{Herramientas}{Git, GitHub, MySQL, SQLite, slurm}
+\resumeSubItem{Plataformas}{Linux, MacOS, docker}
+\resumeSubHeadingListEnd
+\vspace{5pt}
+% }}}
+% IDIOMAS {{{
+\section{~~Idiomas}
+\resumeSubHeadingListStart
+\resumeSubItem{Español}{nativo}
+\resumeSubItem{Ingles}{TOEFL, 101/120 puntos; sobre 24 puntos en las 4 categorías}
+\resumeSubHeadingListEnd
+\vspace{5pt}
+%}}}
+% MISCELLANEOUS {{{
+\section{~~Actividades extracurriculares}
+\resumeSubHeadingListStart
+\resumeSubItem{Co-delegado de la Asociación de Estudiantes de Bioquímica (ANEB)}{2018}
+\resumeSubItem{Miembro de la Asociación de Estudiantes de Bioquímica (ANEB)}{2016 al 2021}
+\resumeSubItem{Miembro de la \textit{International Society for Computational Biology} (ISCB)}{2018 \& 2021}
+% \resumeSubItem{Autor del paquete de software \texttt{esqueleto.nvim}}{2022}
+% \resumeSubItem{Autor del paquete de software \texttt{diferente.nvim}}{2022}
+% \resumeSubItem{Autor del paquete de software \texttt{SimSpread.jl}}{2022}
+\resumeSubHeadingListEnd
+\vspace{5pt}
+% }}}
+% PRODUCTIVIDAD ACADEMICA {{{
+\section{~~Productividad Académica}
+\subsubsection*{~~Publicaciones:}
+\resumeSubHeadingListStart
+\vspace{2pt}
+\resumeItemWithoutTitle{}{\textbf{C. Vigil-Vásquez}, A. Schüller; \textit{De novo} prediction of drug targets and candidates by chemical similarity-guided network-based inference. IJMS (2022). DOI:10.3390/ijms23179666}
+\resumeSubHeadingListEnd
+
+% \subsubsection*{~~Publicaciones en preparación:}
+% \resumeSubHeadingListStart
+% \resumeItemWithoutTitle{}{\textbf{C. Vigil-Vásquez}, M. Jimenez-Socha, P. Ortiz-Bermudez, A. Schüller; Antifungal drug discovery by chemical similarity-guided network-based inference. \textit{En preparación}}.
+% \resumeItemWithoutTitle{}{M. Villena-Gonzalez, P. Oyarzo, \textbf{C. Vigil-Vásquez}, F. Jaume, D. Cosmelli; Movement-based Contemplative Practices are associated with a positive impact on wellbeing due to the intentional cultivation of a specific profile of cognitive, emotional, and bodily self-awareness traits. \textit{En preparación}}.
+% \resumeItemWithoutTitle{}{\textbf{C. Vigil-Vásquez}, C. Bellera, J. Gutierrez, D. Devos; ResidueFisher: Open-source protocol for search conservation signal and remote homology in proteins. \textit{En preparación}}.
+% \resumeSubHeadingListEnd
+
+\subsubsection*{~~Presentaciones:}
+\resumeSubHeadingListStart
+\resumeSubItem{Poster -  ''Antifungal drug discovery by chemical similarity-guided network-based inference''}{Chilean Bioinformatics Society (Enero, 2022)}
+\vspace{2pt}
+\resumeSubItem{Poster - ''DDTNBI: \textit{de novo} target prediction using a social network-derived method''}{International Society for Computational Biology/European Conference on Computational Biology (Agosto, 2021)}
+\vspace{2pt}
+\resumeSubItem{Poster - ''A computational chemogenomics method for the prediction of off-target interactions with coagulation factor Xa''}{European Hematology Association (Agosto, 2020)}
+\vspace{2pt}
+\resumeSubItem{Poster - ''Limits and potential of in silico target prediction by chemical similarity''}{International Society for Computational Biology-LA (Octubre, 2018)}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+
+\subsubsection*{~~Premios:}
+\resumeSubHeadingListStart
+\resumeSubItem{Concurso de investigación de Pregrado - Invierno 2017}{Proyecto titulado ''\textit{In silico} prediction and prioritization of novel drug targets.''}
+	\resumeSubItem{Concurso de investigación de Pregrado - Verano 2020}{Proyecto titulado ''Use of biochemical networks for the prediction of novel drugs for coagulation factor Xa.''}
+\vspace{2pt}
+\resumeSubHeadingListEnd
+% }}}
+\end{document}
