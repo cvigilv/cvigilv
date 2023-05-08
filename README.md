@@ -5,8 +5,8 @@ through mathematical and computational models. In my spare time I'm a Neovim plu
 developer and JuliaLanguage enthusiast, as well as part-time photographer.
 
 ## What have I done?
-Please refer to my [CV](./cv/CV_english_20230108.pdf) for that information (también
-disponible en [español](./cv/CV_english_20230108.pdf)).
+Please refer to my [CV](./cv/cv_en_long.pdf) for that information (también
+disponible en [español](./cv/cv_es_largo.pdf)).
 
 ## Projects
 ### Science
@@ -24,4 +24,4 @@ disponible en [español](./cv/CV_english_20230108.pdf)).
 ### Personal
 - [recetario](https://github.com/cvigilv/recetario), a compendium of miscellaneous script for all things science, ML, DS, Julia, etc.
 
-Last edit: 2023-03-24
+Last edit: 2023-05-08
