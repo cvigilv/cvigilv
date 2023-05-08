@@ -1,0 +1,215 @@
+\documentclass[letter,20pt]{article}
+% PREAMBLE {{{
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{ragged2e}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\usepackage[margin=1.0in]{geometry}
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+% }}}
+
+\begin{document}
+% HEADER {{{
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r}
+	& \textbf{{\LARGE Carlos Vigil Vásquez}} \\
+	\\
+	Mail: \href{mailto:carlos.vigil.v@gmail.com}{\textcolor{blue}{carlos.vigil.v@gmail.com}} &
+	Phone +569 95644768 &
+	Github: \href{https://github.com/cvigilv}{\textcolor{blue}{github.com/cvigilv}}
+	\\
+\end{tabular*}
+\vspace{3pt}
+% }}}
+% PRESENTATION {{{
+\section{~~Presentation}
+	\justify{
+		Chilean biochemist graduated from Pontificia Universidad Católica de Chile, focusing
+		mainly on developing computational solutions using predictive modeling and machine
+		learning for informed decision making. I have practical experience in bioinformatics
+		and chemoinformatics, drug discovery and development, structural biology and psychology.
+		I also have skills and experience in software development, having participated in open
+		source projects.
+	}
+\vspace{5pt}
+% }}}
+% ACADEMIC BACKGROUND {{{
+\section{~~Academic Background}
+\resumeSubHeadingListStart
+\resumeSubheading{B.S. Biochemistry}{Santiago, Chile}
+{Pontificia Universidad Católica de Chile}{2015 - 2022}
+\small{
+	\begin{multicols}{2}
+		\begin{itemize}
+			\item Graduation exam grade: 6.3/7.0
+			\item Undergraduate thesis grade: 7.0/7.0
+			\item Bachelors grade: 6.0/7.0
+			\item Undergraduate thesis titled ''Weak-link paradox for \textit{de novo} prediction of pharmacological targets''
+		\end{itemize}
+	\end{multicols}
+	}
+\resumeSubHeadingListEnd
+\vspace{-15pt}
+\vspace{5pt}
+% }}}
+% WORK EXPERIENCE {{{
+\section{~~Work experience}
+\resumeSubHeadingListStart
+\resumeSubheading{Research assistant - Molecular Design Laboratory}{Dr. Andreas Schüller, Ph. D.}{Pontificia Universidad Católica de Chile; Santiago, Chile}{July 2017 - today}
+\vspace{2pt}
+\small{
+	\begin{itemize}
+		\item Proposal and implementation of ''SimSpread'', a novel predictive model that combines graph theory and the concept of chemical similarity for drug discovery and repositioning.
+		\item Related study on the discovery of drugs with antifungal activity using the SimSpread predictive model, discovering 4 new compounds with antifungal activity for 8 clinically relevant fungal organisms.
+		\item Author of the software package \texttt{SimSpread.jl}, a software package for the \texttt{Julia} programming language that implements the SimSpread formalism for link prediction in graphs.
+		\item Advised in the initiation and development of 3 projects related to the SimSpread model, related to increasing its predictive power, and extending the application domain and accessibility of the method.
+	\end{itemize}
+}
+
+\resumeSubheading{Research secondee - REFRACT MSCA RISE PROJECT 2019}{Dr. Damien Devos, Ph. D.}{Universidad Pablo de Olavide; Sevilla, España}{September 2022 - December 2022}
+\vspace{2pt}
+\begin{itemize}
+	\item Proposal and implementation of ''ResidueFisher'', an open-source bioinformatics protocol to aid remote homology search between proteins using sequence and structural information.
+\end{itemize}
+
+\resumeSubheading{Research Assistant - Psychophysiology Laboratory}{Dr. Diego Cosmelli Sánchez, Ph. D.}{Pontificia Universidad Católica de Chile; Santiago, Chile}{January 2022 - December 2022}
+\begin{itemize}
+	\item Implementation of analysis protocol based on machine learning, statistical modeling, and feature extraction of the trained models for a human study that resulted in the identification of the effect of different contemplative practices (e.g., meditation) on the well-being of the subjects studied.
+\end{itemize}
+
+\resumeSubheading{Undergraduate thesis student - Laboratorio de Diseño Molecular}{Dr. Andreas Schüller, Ph. D.}{Pontificia Universidad Católica de Chile; Santiago, Chile}{August 2020 - June 2022}
+\begin{itemize}
+	\item Undergraduate thesis titled ''Weak-link paradox for \textit{de novo} prediction of pharmacological targets''
+	\item Proposal and implementation of the ''SimSpread'' model, its optimization using different cross-validation schemes, and evaluation of the predictive performance of the proposed models.
+	\item Extension of the proposed method to incorporate notions of weak-link theory, resulting in a model capable of generating predictions of higher novelty while maintaining the predictive performance seen.
+\end{itemize}
+
+\resumeSubheading{Teaching Assistant - Biostatistics}{Dr. Andreas Schüller, Ph. D.}{Pontificia Universidad Católica de Chile; Santiago, Chile}{July 2017 - December 2017}
+\begin{itemize}
+	\item Assisted grading homeworks and exams of a group of 40 students
+\end{itemize}
+\resumeSubHeadingListEnd
+\vspace{5pt}
+% }}}
+% SKILL SET {{{
+\section{~~Skill set}
+\resumeSubHeadingListStart
+\resumeSubItem{Machine languages}{Julia, Python, LaTeX, Bash, Lua}
+\resumeSubItem{Predictive modelling}{Machine learning (supervised and unsupervised models), data processing, database management, REST API, data clustering and evaluation, predictive model evaluation, recommender systems, data visualization, biostatistics, statistics and probability, graph theory, network analysis, Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn, NetworkX, Pingouin}
+\resumeSubItem{Bioinformatics}{Sequence alignment, MSA, structural alignment, molecular docking, structural biology, PyMOL scripting, AlphaFold modeling and evaluation, omics analysis, biostatistics, phylogenetic tree construction.}
+\resumeSubItem{Cheminformatics}{Molecular descriptor preparation, chemical similarity analysis, confomer preparation, pharmacophoric modeling, RDKit, OpenBabel, computational representation of chemical compounds}
+\resumeSubItem{Tools}{Git, GitHub, MySQL, SQLite, slurm}
+\resumeSubItem{Platforms}{Linux, MacOS, docker}
+\resumeSubHeadingListEnd
+\vspace{5pt}
+% }}}
+% LANGUAGES {{{
+\section{~~Languages}
+\resumeSubHeadingListStart
+\resumeSubItem{Spanish}{native}
+\resumeSubItem{English}{TOEFL, 101/120 points; over 24 points over all categories}
+\resumeSubHeadingListEnd
+\vspace{5pt}
+%}}}
+% EXTRACURRICULAR ACTIVITIES {{{
+\section{~~Extracurricular Activities}
+\resumeSubHeadingListStart
+\resumeSubItem{Co-delegate of the National Asociation of Biochemistry Students (ANEB)}{2018}
+\resumeSubItem{Member of the National Asociation of Biochemistry Students (ANEB)}{2016 to 2021}
+\resumeSubItem{MiembMember of the International Society for Computational Biology (ISCB)}{2018 \& 2021}
+% \resumeSubItem{Autor del paquete de software \texttt{esqueleto.nvim}}{2022}
+% \resumeSubItem{Autor del paquete de software \texttt{diferente.nvim}}{2022}
+% \resumeSubItem{Autor del paquete de software \texttt{SimSpread.jl}}{2022}
+\resumeSubHeadingListEnd
+\vspace{5pt}
+% }}}
+% ACADEMIC PRODUCTIVITY {{{
+\section{~~Academic Productivity}
+\subsubsection*{~~Publications}
+\resumeSubHeadingListStart
+\vspace{2pt}
+\resumeItemWithoutTitle{}{\textbf{C. Vigil-Vásquez}, A. Schüller; \textit{De novo} prediction of drug targets and candidates by chemical similarity-guided network-based inference. IJMS (2022). DOI:10.3390/ijms23179666}
+\resumeSubHeadingListEnd
+
+% \subsubsection*{~~Publicaciones en preparación:}
+% \resumeSubHeadingListStart
+% \resumeItemWithoutTitle{}{\textbf{C. Vigil-Vásquez}, M. Jimenez-Socha, P. Ortiz-Bermudez, A. Schüller; Antifungal drug discovery by chemical similarity-guided network-based inference. \textit{En preparación}}.
+% \resumeItemWithoutTitle{}{M. Villena-Gonzalez, P. Oyarzo, \textbf{C. Vigil-Vásquez}, F. Jaume, D. Cosmelli; Movement-based Contemplative Practices are associated with a positive impact on wellbeing due to the intentional cultivation of a specific profile of cognitive, emotional, and bodily self-awareness traits. \textit{En preparación}}.
+% \resumeItemWithoutTitle{}{\textbf{C. Vigil-Vásquez}, C. Bellera, J. Gutierrez, D. Devos; ResidueFisher: Open-source protocol for search conservation signal and remote homology in proteins. \textit{En preparación}}.
+% \resumeSubHeadingListEnd
+
+\subsubsection*{~~Presentations:}
+\resumeSubHeadingListStart
+\resumeSubItem{Poster -  ''Antifungal drug discovery by chemical similarity-guided network-based inference''}{Chilean Bioinformatics Society (January, 2022)}
+\vspace{2pt}
+\resumeSubItem{Poster - ''DDTNBI: \textit{de novo} target prediction using a social network-derived method''}{International Society for Computational Biology/European Conference on Computational Biology (August, 2021)}
+\vspace{2pt}
+\resumeSubItem{Poster - ''A computational chemogenomics method for the prediction of off-target interactions with coagulation factor Xa''}{European Hematology Association (August, 2020)}
+\vspace{2pt}
+\resumeSubItem{Poster - ''Limits and potential of in silico target prediction by chemical similarity''}{International Society for Computational Biology-LA (October, 2018)}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+
+\subsubsection*{~~Awards}
+\resumeSubHeadingListStart
+	\resumeSubItem{Undergraduate Research Contest - Summer 2020}{Project titled ''Use of biochemical networks for the prediction of novel drugs for coagulation factor Xa.''}
+\resumeSubItem{Undergraduate Research Contest - Winter 2017}{Project titled ''\textit{In silico} prediction and prioritization of novel drug targets.''}
+\vspace{2pt}
+\resumeSubHeadingListEnd
+% }}}
+\end{document}
