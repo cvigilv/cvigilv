@@ -5,7 +5,7 @@ biochemical evolution through mathematical and computational models. In my spare
 time I'm a Neovim plugin developer and Julia Language enthusiast, as well as
 part-time photographer.
 
-## What am I up to? 
+## What am I up to?
 I'm currently working at [Protera Bioscience](https://www.proterabio.com)
 developing tooling and predictive models for [madi:TM:](https://www.madi.bio/)
 SaaS protein-engineering platform.
