@@ -39,9 +39,27 @@
 #v(-0.5em)
 
 #grid(
+  columns: (2fr, 1fr), fill: none, column-gutter: 2pt, align(left)[*Independent consulting*\
+    ], align(right)[
+    March '21 - today],
+)
+- Independent consulting on software development and bioinformatics projects.
+
+#grid(
+  columns: (2fr, 1fr), fill: none, column-gutter: 2pt, align(left)[*Microplatypus Lab (Institut Pasteur de Lille; France)*\
+    _PhD Student_], align(right)[Dr. Damien Devos, Ph. D.\
+    December '23 - today],
+)
+- PhD researcher under the grant "International PhD call EGBSL, Universite de
+  Lille, France".
+- Project aiming to reconstruct the Tree-of-Life from a cellular metabolism
+  centric point-of-view and develop tooling for building phylogenies from
+  networks and novel computing paradigms.
+
+#grid(
   columns: (2fr, 1fr), fill: none, column-gutter: 2pt, align(left)[*Protera Biosciences*\
-    _Protein Designer_], align(right)[Simon Correa\
-    September '23 - today],
+    _Protein Designer_], align(right)[\
+    September '23 - November '24],
 )
 - Implementation, validation and maintenance of computational biology modules for
   madi#emoji.tm, Protera's proprietary SaaS platform for protein design
@@ -95,7 +113,6 @@
   structural information.
 - Lead the writing of the application note for the previously mentioned protocol.
 
-#pagebreak()
 #grid(columns: (2fr, 1fr), fill: none, column-gutter: 2pt, align(left)[
   *Psychophysiology Laboratory (PUC; Chile)*\
   _Research Assistant_
@@ -153,8 +170,9 @@
 7. ''Limits and potential of in silico target prediction by chemical similarity'';
   M. Ruiz, *C. Vigil-Vásquez* and A. Schüller. International Society for
   Computational Biology-LA (October, 2018)
-#pagebreak()
 == Awards:
+1. *International PhD call EGBSL, Universite de Lille, France* PhD scholarship for a
+    duration of 3 years.
 1. *Undergraduate Research Contest - Summer 2020* Project titled ''Use of
   biochemical networks for the prediction of novel drugs for coagulation factor
   Xa.''
@@ -202,8 +220,8 @@ completion of a undergraduate research thesis.
 #v(-0.5em)
 #line(length: 100%)
 - *Human languages*: Spanish (native), English (TOEFL 101/120 points; over 24
-  points over all categories)
-- *Machine languages*: Julia, Python, LaTeX, Bash/Shell scripting, Lua
+  points over all categories), French (reading)
+- *Machine languages*: Julia, Python, Lua, LaTeX/Typst, Bash/Shell scripting
 - *Predictive modelling*: Transfer learning, Machine learning (supervised and
   unsupervised models), conformal prediction, data processing, database
   management, REST API, data clustering and evaluation, predictive model
@@ -235,10 +253,10 @@ completion of a undergraduate research thesis.
 #grid(
   columns: (4fr, 1fr), [- Member of the International Society for Computational Biology (ISCB):], align(right)[2018 & 2021],
 )
-#v(-0.5em)
-#grid(
-  columns: (4fr, 1fr), [- Author and maintainer of `esqueleto.nvim`:], align(right)[2023 - today],
-)
+// #v(-0.5em)
+// #grid(
+//   columns: (4fr, 1fr), [- Author and maintainer of `esqueleto.nvim`:], align(right)[2023 - today],
+// )
 #v(-0.5em)
 #grid(
   columns: (4fr, 1fr), [- Author and maintainer of `SimSpread.jl`:], align(right)[2022 - today],
