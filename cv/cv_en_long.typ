@@ -39,22 +39,15 @@
 #v(-0.5em)
 
 #grid(
-  columns: (2fr, 1fr), fill: none, column-gutter: 2pt, align(left)[*Independent consulting*\
-    ], align(right)[
-    March '21 - today],
-)
-- Independent consulting on software development and bioinformatics projects.
-
-#grid(
-  columns: (2fr, 1fr), fill: none, column-gutter: 2pt, align(left)[*Microplatypus Lab (Institut Pasteur de Lille; France)*\
+  columns: (2fr, 1fr), fill: none, column-gutter: 2pt, align(left)[*Microbiology's Platypus Lab (Institut Pasteur de Lille; France)*\
     _PhD Student_], align(right)[Dr. Damien Devos, Ph. D.\
     December '23 - today],
 )
 - PhD researcher under the grant "International PhD call EGBSL, Universite de
   Lille, France".
-- Project aiming to reconstruct the Tree-of-Life from a cellular metabolism
-  centric point-of-view and develop tooling for building phylogenies from
-  networks and novel computing paradigms.
+- Project aiming to reconstruct the Tree-of-Life from biochemical networks (e.g. metabolic networks)
+  and method development for reconstructing phylogenies from non-genomic data using novel computing
+  paradigms and accelerated computing.
 
 #grid(
   columns: (2fr, 1fr), fill: none, column-gutter: 2pt, align(left)[*Protera Biosciences*\
@@ -106,7 +99,7 @@
   _Research Secondee_
 ], align(right)[Dr. Damien Devos, Ph. D.\
   September - December '22])
-- 3-month Research secondment carried out at the $mu$Platypus Laboratory at
+- 3-month Research secondment carried out at the Microbiology's Platypus Lab at
   Universidad Pablo de Olavide in Sevilla, Spain.
 - Proposal and implementation of ''ResidueFisher'', an open-source bioinformatics
   protocol to aid remote homology search between proteins using sequence and
