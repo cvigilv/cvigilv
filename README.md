@@ -6,9 +6,9 @@ time I'm a Neovim plugin developer and Julia Language enthusiast, as well as
 part-time photographer.
 
 ## What am I up to?
-I'm currently doing my PhD at Universite de Lille and Institute Pasteur de Lille
+I'm currently doing my PhD at Université de Lille and Institute Pasteur de Lille
 on developing a framework to study evolution from the point of view of cellular
-metabolism.
+metabolism using unconventional computational paradigms.
 
 For a more in-depth view of my experience, please
 refer to my [CV](./cv/cv_en_long.pdf) (también disponible en
@@ -16,7 +16,7 @@ refer to my [CV](./cv/cv_en_long.pdf) (también disponible en
 
 ### Projects
 #### Science
-- [De novo prediction of drug targets and candidates by chemical
+- [_De novo_ prediction of drug targets and candidates by chemical
   similarity-guided network-based
   inference](https://github.com/cvigilv/simspread)
 - [ResidueFisher](https://github.com/cvigilv/ResidueFisher), bioinformatics
@@ -24,18 +24,22 @@ refer to my [CV](./cv/cv_en_long.pdf) (también disponible en
   of protein chain to detect possible evolutionary conserved residues
 
 #### Neovim
-- [diferente.nvim](https://github.com/cvigilv/diferente.nvim), a plugin to
-  enhance the UX of Git commits in Neovim.
+- [diferente.nvim](https://github.com/cvigilv/diferente.nvim), a plugin for
+  enhancing the UX of Git commits in Neovim, inspired in commitia.vim.
 - [esqueleto.nvim](https://github.com/cvigilv/esqueleto.nvim), a plugin for
   managing template files in Neovim.
+- [denote.nvim](https://github.com/cvigilv/denote.nvim), a plugin for
+  simple notes for Neovim with an efficient file-naming scheme.
+
 
 #### Julia Language
 - [SimSpread.jl](https://github.com/cvigilv/SimSpread.jl), a software package
-  for the `Julia` programming language that implements the SimSpread formalism
-    for link prediction in graphs.
+  implements the SimSpread algorithm for link prediction in graphs.
+- [HyperdimensionalComputing.jl](https://github.com/MichielStock/HyperdimensionalComputing.jl),
+  a software package for hyperdimensional computing (HDC) in Julia.
 
 #### Personal
 - [recetario](https://github.com/cvigilv/recetario), a compendium of
   miscellaneous script for all things science, ML, DS, Julia, etc.
 
-Last edit: 2025-02-04
+Last edit: 2025-11-05
