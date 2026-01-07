@@ -1,12 +1,12 @@
 # Hi, I'm Carlos
 
-I'm a chilean biochemist interested in understanding living organisms'
+I'm a Chilean biochemist interested in understanding living organisms'
 biochemical evolution through mathematical and computational models. In my spare
-time I'm a Neovim plugin developer and Julia Language enthusiast, as well as
-part-time photographer.
+time, I'm a Neovim plugin developer and Julia Language enthusiast, as well as
+a part-time photographer.
 
 ## What am I up to?
-I'm currently doing my PhD at Université de Lille and Institute Pasteur de Lille
+I'm currently doing my PhD at Université de Lille and Institut Pasteur de Lille
 on developing a framework to study evolution from the point of view of cellular
 metabolism using unconventional computational paradigms.
 
@@ -42,4 +42,4 @@ refer to my [CV](./cv/cv_en_long.pdf) (también disponible en
 - [recetario](https://github.com/cvigilv/recetario), a compendium of
   miscellaneous script for all things science, ML, DS, Julia, etc.
 
-Last edit: 2025-11-05
+Last edit: 2026-01-07
