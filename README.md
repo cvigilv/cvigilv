@@ -18,7 +18,7 @@ refer to my [CV](./cv/cv_en_long.pdf) (también disponible en
 #### Science
 - [_De novo_ prediction of drug targets and candidates by chemical
   similarity-guided network-based
-  inference](https://github.com/cvigilv/simspread)
+  inference](https://github.com/schuellerlab/ijms2022_simspread)
 - [ResidueFisher](https://github.com/cvigilv/ResidueFisher), bioinformatics
   protocol that aims at mining information at the sequence and structure level
   of protein chain to detect possible evolutionary conserved residues
