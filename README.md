@@ -33,7 +33,7 @@ refer to my [CV](./cv/cv_en_long.pdf) (también disponible en
 
 
 #### Julia Language
-- [SimSpread.jl](https://github.com/cvigilv/SimSpread.jl), a software package
+- [SimSpread.jl](https://github.com/schuellerlab/SimSpread.jl), a software package
   implements the SimSpread algorithm for link prediction in graphs.
 - [HyperdimensionalComputing.jl](https://github.com/MichielStock/HyperdimensionalComputing.jl),
   a software package for hyperdimensional computing (HDC) in Julia.
