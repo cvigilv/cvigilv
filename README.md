@@ -36,7 +36,7 @@ refer to my [CV](./cv/cv_en_long.pdf) (también disponible en
   implements the SimSpread algorithm for link prediction in graphs.
 - [HyperdimensionalComputing.jl](https://github.com/MichielStock/HyperdimensionalComputing.jl),
   a software package for hyperdimensional computing (HDC) in Julia.
-- [HyperGen.jl](https://github.com/cvigilv.HyperGen.jl), a reimplementation of
+- [HyperGen.jl](https://github.com/cvigilv/HyperGen.jl), a reimplementation of
   [HyperGen](https://github.com/wh-xu/Hyper-Gen) in Julia.
 
 #### Personal
