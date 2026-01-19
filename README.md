@@ -31,15 +31,16 @@ refer to my [CV](./cv/cv_en_long.pdf) (también disponible en
 - [denote.nvim](https://github.com/cvigilv/denote.nvim), a plugin for
   simple notes for Neovim with an efficient file-naming scheme.
 
-
 #### Julia Language
 - [SimSpread.jl](https://github.com/cvigilv/SimSpread.jl), a software package
   implements the SimSpread algorithm for link prediction in graphs.
 - [HyperdimensionalComputing.jl](https://github.com/MichielStock/HyperdimensionalComputing.jl),
   a software package for hyperdimensional computing (HDC) in Julia.
+- [HyperGen.jl](https://github.com/cvigilv.HyperGen.jl), a reimplementation of
+  [HyperGen](https://github.com/wh-xu/Hyper-Gen) in Julia.
 
 #### Personal
 - [recetario](https://github.com/cvigilv/recetario), a compendium of
   miscellaneous script for all things science, ML, DS, Julia, etc.
 
-Last edit: 2025-11-05
+Last edit: 2026-01-19
